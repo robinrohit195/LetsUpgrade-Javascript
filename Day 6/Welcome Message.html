@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Message</title>
+    <h2>Day 6 - Assignment 6 - Question 3</h2>
+    <h3>Question 3: Make a webpage that will ask the name of the user. <br> Then will display a welcome message on the webpage.<br> Also the webpage should also have a clock. <br> Using the toggle method of classList add a dark mode feature to the website.</h3>
+    <link rel="stylesheet" href="/Scripts/styles.css">
+
+</head>
+
+<body onload="realTime()" style="text-align: center;">
+    <p id="clock12"></p>
+    <p id="greeting"></p>
+    <div class=".bg">
+        <script src="/Scripts/welcomeMessage.js"></script>
+    </div>
+    <div class=".dark-mode">
+        <h2>Toggle Dark/Light Mode</h2>
+        <p>Click the button to toggle between dark and light mode for this page.</p>
+
+        <button onclick="myFunction()">Toggle dark mode</button>
+    </div>
+
+</body>
+
+</html>
